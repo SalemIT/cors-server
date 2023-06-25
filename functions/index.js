@@ -6,10 +6,12 @@ const corsServer = corsAnywhere.createServer({
     originWhitelist: [
       'http://localhost:3000',
       'http://localhost:5000',
-      'https://portfolio-ravenous.web.app',
-      'https://portfolio-ravenous.firebaseapp.com',
-      'https://test-my-api-endpoint.web.app',
-      'https://test-my-api-endpoint.firebaseapp.com'
+      'https://salemprivatecors.web.app',
+      'https://salemprivatecors.firebaseapp.com',
+      // 'https://test-my-api-endpoint.web.app',
+      // 'https://test-my-api-endpoint.firebaseapp.com',
+      'https://sites.google.com',
+      'https://studio.webcomponents.dev',
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']

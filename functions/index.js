@@ -3,16 +3,19 @@ const corsAnywhere = require('cors-anywhere');
 const cors = require('cors');
 
 const corsServer = corsAnywhere.createServer({
-    originWhitelist: [
-      'http://localhost:3000',
-      'http://localhost:5000',
-      'https://salemprivatecors.web.app',
-      'https://salemprivatecors.firebaseapp.com',
-      // 'https://test-my-api-endpoint.web.app',
-      // 'https://test-my-api-endpoint.firebaseapp.com',
-      'https://sites.google.com',
-      'https://studio.webcomponents.dev',
-    ],
+    originWhitelist: [],
+    //   'http://localhost:3000',
+    //   'http://localhost:5000',
+    //   'https://salemprivatecors.web.app',
+    //   'https://salemprivatecors.firebaseapp.com',
+    //   // 'https://test-my-api-endpoint.web.app',
+    //   // 'https://test-my-api-endpoint.firebaseapp.com',
+    //   'https://sites.google.com',
+    //   'https://studio.webcomponents.dev',
+    //   'https://795191655-atari-embeds.googleusercontent.com',
+    //   'https://1759022182-atari-embeds.googleusercontent.com',
+    //   /https:\/\/.+-atari-embeds.googleusercontent.com/,
+    // ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
 });

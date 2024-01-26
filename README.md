@@ -1,3 +1,8 @@
+
+Edit functions/index.js to update safelist
+use `cd functions && firebase deploy --only functions`
+
+
 # CORS-Anywhere Server
 
 [CORS-Anywhere](https://www.npmjs.com/package/cors-anywhere) is a Node.js package that adds [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) headers to a proxied request. This is useful when the API provider does not natively support CORS. Without altering the headers, a request to such a provider would cause an error and prevent the request from being fulfilled.

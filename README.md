@@ -1,6 +1,9 @@
 
+# Instructions for this instance:
+
 Edit functions/index.js to update safelist
 use `cd functions && firebase deploy --only functions`
+or `cd functions && pnpm deploy`
 
 
 # CORS-Anywhere Server

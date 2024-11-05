@@ -1,3 +1,10 @@
+# Instructions for updating
+
+Edit the index.js file to add whatever URLs should be allowed.
+
+`pnpm deploy` to deploy
+
+
 ## Implementation using Firebase
 
 Implementation of a basic CORS-Anywhere server is very straightforward. Simply do the following:

@@ -12,7 +12,7 @@ const corsServer = corsAnywhere.createServer({
       'http://localhost:8000',
       'https://salem-wchost.web.app',
       'https://salem-wchost-svelte.web.app',
-      'https://salem-wchost-svelte--beta-umfwc7yh.web.app',
+      'https://salem-wchost-svelte--beta-1ihhhi28.web.app',
       'https://us-central1-salem-wchost.cloudfunctions.net',
       'https://portal.salem.edu',
       'https://salem.edu',
